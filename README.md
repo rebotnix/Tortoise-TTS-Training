@@ -1,7 +1,8 @@
 # Tortoise-TTS-Training
  Community framework for training tortoise (Expermental and first alpha version 29ht october 2022)
 
-# Tortoise original was written by James Betker.
+# About Tortoise 
+The original tortoise was written by James Betker. 
 This github is an opensource version for a training Tortoise uses several frameworks to generate high quality synthetic audio. 
 We want to provide new results in fundamental AI research, as well as useful applications and added value. We are a community with developers from all over the world working together.
 
@@ -46,7 +47,7 @@ pip -r requirements.txt
 To train a Tortoise TTS model, you need to prepare your dataset first and then train several models. We want offer the whole pipeline to do it. Currently we have the preparing pipeline ready.
 
 # 01.annotate_audio
-To create a dataset manually, it is mandatory to create it automatically. Creating audio-to-speech manually is very time-consuming and costly. 
+To create a dataset manually, it is mandatory to create it automatically. Creating speech to text manually can be very time-consuming and costly. 
 This framework allows to segment the audio track of any media source, e.g. *.mp4,*.ts, *.mp3, *.wav etc. It also allows to convert audio from webserver or livestreams and to automatically generate training material and also split the audio file in the time and segments. The segments are splitted in 6 seconds up to a maximum of 20 seconds. 
 When you use the auto mode, it detect automaticly the language. It is recommended to divide the audio material into 2 hour blocks (more can work.)
 
