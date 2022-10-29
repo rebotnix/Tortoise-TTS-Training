@@ -12,9 +12,9 @@ Link: https://discord.gg/qc5D9sqv
 The developers commit in their license not to add Deep Fakes or other living beings a harm. The project is license free, you can use it in commercial or research with the following conditions. 
 The license based on MIT and extends it with the addition of the "No HARM AI". "No HARM AI" means, that generated AI content will be marked by "Content was created by Tortoise-TTS-Community" and that this content is truthful. This is an easy to understand rule and we ask you to follow it, please. We want to demonstrate the potential of AI applications can have without showing these overwhelming DeepFake applications.
 
-# The projects we want to support with this project are. 
+# The projects we are working on.
 
-# Indie Game Studios
+# Indie game development
 The game industry in the indie sector is great. In order to create new games, we want to support them with this project and give them the opportunity to develop multilingual games with emotional and cool voices. 
 
 # Medical institutions 
@@ -60,7 +60,9 @@ a simple CLI interface to do it.
 "gujarati","amharic","yiddish","lao","uzbek","faroese","haitian creole","pashto","turkmen","nynorsk","maltese "sanskrit","luxembourgish","myanmar","tibetan","tagalog","malagasy","assamese","tatar","hawaiian","lingala","hausa"," bashkir","javanese","su": "sundanese",
 
 Example CLI to generate a train.txt from an audio source:
+```
 python generate_train.py youraudio.mp3 --model small --train_dir DatasetTrainDir
+```
 
 Parameters:
 generate_train.py   -> Script for generating Trainingsdata
