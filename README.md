@@ -1,9 +1,9 @@
 # Tortoise-TTS-Training
  Community framework for training tortoise (Expermental and first alpha version 29ht october 2022)
 
-# Tortoise original was written by James Betker. This github is an opensource version for a training Tortoise uses several frameworks to generate high quality synthetic audio. 
-
-This project is intended to provide new results in fundamental research, as well as useful applications and added value. We are a community with developers from all over the world working together.
+# Tortoise original was written by James Betker.
+This github is an opensource version for a training Tortoise uses several frameworks to generate high quality synthetic audio. 
+We want to provide new results in fundamental AI research, as well as useful applications and added value. We are a community with developers from all over the world working together.
 
 The community for this project works on a discord server. 
 Link: https://discord.gg/qc5D9sqv 
@@ -12,7 +12,7 @@ Link: https://discord.gg/qc5D9sqv
 The developers commit in their license not to add Deep Fakes or other living beings a harm. The project is license free, you can use it in commercial or research with the following conditions. 
 The license based on MIT and extends it with the addition of the "No HARM AI". "No HARM AI" means, that generated AI content will be marked by "Content was created by Tortoise-TTS-Community" and that this content is truthful. This is an easy to understand rule and we ask you to follow it, please. We want to demonstrate the potential of AI applications can have without showing these overwhelming DeepFake applications.
 
-# The projects we want to support with this project are. This list is constantly being expanded.
+# The projects we want to support with this project are. 
 
 # Indie Game Studios
 The game industry in the indie sector is great. In order to create new games, we want to support them with this project and give them the opportunity to develop multilingual games with emotional and cool voices. 
@@ -53,7 +53,7 @@ When you use the auto mode, it detect automaticly the language. It is recommende
 We use the open source HQ Whisper model to generate text to speech train files. We use the whisper API for segmenting and splitten the files. You do not have to care about the API, we offer
 a simple CLI interface to do it.
 
-Currently it supports these languages:
+#Currently we support these languages for speech to text:
 "english",chinese",german",spanish",russian",korean",french",japanese","portuguese",turkish",polish",catalan",dutch",arabic",swedish",italian",indonesian","hindi","finnish","vietnamese",
 "hebrew","ukrainian","greek","malay","czech",romanian","danish","hungarian","tamil","norwegian","thai","urdu","croatian","bulgarian","lithuanian","latin","maori","malayalam","welsh","slovak","telugu","persian","latvian","bengali","serbian","azerbaijani","slovenian","kannada","estonian","macedonian","breton","basque","icelandic","armenian","nepali","mongolian","bosnian","kazakh","albanian",
 "swahili","galician","marathi","punjabi","sinhala","khmer","shona","yoruba","somali","afrikaans","occitan","georgian","belarusian","tajik","sindhi",
@@ -64,7 +64,7 @@ python generate_train.py youraudio.mp3 --model small --train_dir DatasetTrainDir
 
 Parameters:
 generate_train.py   -> Script for generating Trainingsdata
---model small       -> Defines the text to speech model
+--model small       -> Defines the speech to text models. Usefull values are tiny, small and medium. If the model is not in your local cache, it will downloaded automaticly. 
 --train_dir         -> Defines the outputdir where the splitted mp3 chunks and final train.txt script is written, example "DatasetTrainDir"
 
 After this, the scripts loads the first 30 seconds of the whole audiofile, try to detect the spoken language and starts text to speech analyse. When it reach
